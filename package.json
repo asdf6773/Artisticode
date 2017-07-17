@@ -1,16 +1,19 @@
 {
-  "name": "public",
+  "name": "sc",
   "version": "1.0.0",
   "description": "",
-  "main": "sketch.js",
+  "main": "index.js",
   "scripts": {
-       "build": "browserify index.js -o bundle.js",
-        "dev": "budo home.js:bundle.js --live"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "budo": "^10.0.3",
-    "p5": "^0.5.11"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "multer": "^1.3.0",
+    "request": "^2.81.0",
+    "socket.io": "^1.7.3",
+    "socket.io-stream": "^0.9.1"
   }
 }
