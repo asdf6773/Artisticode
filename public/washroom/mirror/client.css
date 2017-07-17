@@ -1,0 +1,102 @@
+.submit-label {
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-image: url(../lib/heart_big.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background: #aaeeaa;*/
+    color: #ffffff;
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 100px;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#num{
+  height:0;
+  font-family: sans-serif;
+  font-size: 30px;
+  color:#b1c1c8;
+  position:relative;
+  text-align: center;
+  top:20%;
+  margin:0 auto
+}
+#bonus{
+  height:0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color:#919ea8;
+  position:relative;
+  text-align: center;
+  top:95%;
+  margin:0 auto
+}
+#bonusC{
+  height:0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color:#919ea8;
+  position:relative;
+  text-align: center;
+  top:90%;
+  margin:0 auto
+}
+#back {
+    background: url(../lib/back.png);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+    border-radius: 40px;
+    z-index: 999;
+    /*background: #E0EEE7;*/
+    /*color: #527283;*/
+}
+
+body {
+  width:100%;
+  height:100%;
+  background-size: 230px 350px;
+
+background-image: url(../lib/mirror-18.png);
+background-position: center;
+background-repeat: no-repeat;
+/*z-index: -999;*/
+}
+
+.submit-label:active {
+    background-image: url(../lib/heart_pink.png);
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+/*.submit-label:hover {
+    background-image:url(../lib/heart_pink.png);
+
+    cursor: pointer;
+}*/
+
+
+html {
+    background: -webkit-linear-gradient(#D6E3E9, #DEDEDE);
+    background: -o-linear-gradient(#D6E3E9, #DEDEDE);
+    background: -moz-linear-gradient(#D6E3E9, #DEDEDE);
+    background: linear-gradient(#D6E3E9, #DEDEDE);
+    background-attachment: fixed;
+}
+
+#like {
+    display: none;
+}
+
+body {
+    text-align: center;
+}
